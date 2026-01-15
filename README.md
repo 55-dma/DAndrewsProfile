@@ -1,38 +1,38 @@
-🌸 Dottie “DeDe” Andrews
-Hi! I’m Dottie — but everyone calls me DeDe. I’m a full‑time Software Development student at Ivy Tech Community College, learning HTML, CSS, JavaScript, and GitHub. This project is where I experiment, practice, and grow my skills one step at a time.
+# 🌸 Dottie “DeDe” Andrews
 
-I love creating soft, welcoming designs using navy blues, pinks, and purples, and I’m excited to keep building my confidence as a new developer.purples, and I’m excited to keep building my confidence as a new developer.
+Hi! I’m Dottie — but everyone calls me **DeDe**. I’m a front‑end web designer returning to school to refresh my skills and strengthen my JavaScript knowledge. I enjoy creating soft, welcoming designs using navy blues, pinks, and purples, and this project is part of my ongoing growth as a developer.
 
 ---
 
 ## 🌼 About This Project
-This page is part of my learning journey. I’m using it to explore:
+This website is part of my learning journey. I’m using it to explore:
 
-- Basic HTML structure  
-- Linking CSS files  
-- Styling with colors, fonts, and layout  
-- Understanding how GitHub and GitHub Pages work  
-- Building confidence through hands‑on practice  
+- HTML structure and layout  
+- Styling with CSS (colors, fonts, gradients, containers)  
+- Strengthening my JavaScript foundation  
+- Practicing version control with GitHub  
+- Publishing with GitHub Pages  
 
-Every update helps me learn something new.
+Every update helps me sharpen my skills.
 
 ---
 
-## 💻 What I’m Learning Right Now
-- HTML (structure, tags, semantic elements)  
-- CSS (colors, fonts, gradients, containers, layout)  
+## 💻 What I’m Focusing On Right Now
+- HTML (semantic structure and clean layout)  
+- CSS (soft themes, gradients, typography)  
+- JavaScript fundamentals (logic, functions, DOM basics)  
 - GitHub (commits, pushing, publishing)  
-- Visual Studio Code basics  
+- Visual Studio Code workflow  
 
 ---
 
 ## 🎨 My Style & Theme
-I’m building a soft, elegant theme using:
+I love designing with:
 
-- **Navy blue** as my main background  
+- **Navy blue** as the main background  
 - **Pinks and purples** as accent colors  
 - **Lora**, a warm serif font similar to Bookman  
-- Clean, simple layouts that feel friendly and professional  
+- Soft, elegant layouts that feel friendly and professional  
 
 ---
 
@@ -41,16 +41,21 @@ I’m building a soft, elegant theme using:
 - Create a Skills section  
 - Add a Projects section  
 - Build a footer  
-- Publish the page using GitHub Pages  
-- Keep improving as I learn more  
+- Continue improving layout and structure  
+- Strengthen JavaScript through hands‑on practice  
 
 ---
 
 ## 🌐 Connect With Me
-You can find me on LinkedIn:
+**LinkedIn:**  
+[linkedin.com/in/dottie-andrews-webdesigner](https://linkedin.com/in/dottie-andrews-webdesigner)
 
-**[linkedin.com/in/dottie-andrews-webdesigner](https://linkedin.com/in/dottie-andrews-webdesigner)**
+---
+
+## ✨ About Me
+I’m passionate, creative, and committed to growing as a developer. I already have front‑end design experience, and now I’m expanding my skills through school and guided practice. I love learning step‑by‑step, experimenting with code, and creating designs that feel warm and welcoming.
+
+Thanks for visiting my project!
 
 
 ### dedeprofile
-Profile
