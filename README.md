@@ -1,8 +1,7 @@
-# 🌸 Dottie Andrews
+🌸 Dottie “DeDe” Andrews
+Hi! I’m Dottie — but everyone calls me DeDe. I’m a full‑time Software Development student at Ivy Tech Community College, learning HTML, CSS, JavaScript, and GitHub. This project is where I experiment, practice, and grow my skills one step at a time.
 
-Hi! I’m Dottie — a full‑time Software Development student at Ivy Tech Community College. I’m currently learning HTML, CSS, JavaScript, and GitHub, and this project is where I practice, experiment, and grow my skills one step at a time.
-
-I love creating soft, welcoming designs with navy blues, pinks, and purples, and I’m excited to keep building my confidence as a new developer.
+I love creating soft, welcoming designs using navy blues, pinks, and purples, and I’m excited to keep building my confidence as a new developer.purples, and I’m excited to keep building my confidence as a new developer.
 
 ---
 
