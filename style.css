@@ -1,16 +1,100 @@
+/* Base layout & typography */
+
+:root {
+    --color-navy: #000080; /* navy */
+    --color-light-pink: #ffc0cb; /* light pink */
+    --color-lavender: #e6e6fa; /* lavender */
+    --color-medium-purple: #9370db; /* medium purple */
+    --color-white: #ffffff; /* white */
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
-text-align: center;
     margin: 0;
-    padding: 0;
-    background-color: pink;
+    background-color: var(--color-navy);
+    color: var(--color-light-pink);
+    font-family: "Bookman Old Style", "Bookman", Libre Baskerville, serif;
+    line-height: 1.6;
 }
 
-h1 {
-    color: floralwhite;
+/* Skip Link for keyboard users */
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: -999;
+    background: var(--color-lavender);
+    color: var(--color-navy);
+    padding: 0.5rem 1 rem;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+/* Layout containers */
+header{
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 1rem 3rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: var(--color-lavender);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Tagline style */
+.tagline {
+    font-style: italic;
+    color: var(--color-lavender);
+}
+
+/* Sections */
+.section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Links */
+a {
+    color: var(--color-medium-purple);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    color: var(--color-light-pink);
+    text-decoration: none;
+}
+
+/* Lists */
+ul, ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
 }
 
 
-p {
-    color: navy;
-}
+
+
+
