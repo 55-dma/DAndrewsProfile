@@ -209,6 +209,12 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
+a:focus-visible {
+    outline: 2px solid var(--color-light-pink);
+    outline-offset: 3px;
+}
+
+
 /* Lists */
 ul, ol {
     margin-top: 1rem;
@@ -226,6 +232,20 @@ footer {
     font-weight: bold;
     border-top: 1px solid var(--color-lavender);
 }
+
+/* Responsive */
+@media (max-width: 700px) {
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo-area {
+        max-width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .nav-list {
+        justify-content: flex-start;
+    }
 
 
 
