@@ -84,10 +84,10 @@ max-width: 60%
 }
 
 .nav-list a {
-color: var(--color-lavender);
+color: var(--color-dark-pink);
 text-decoration: none;
 font-weight: bold;
-padding: 03rem 0.6rem;
+padding: 0.3rem 0.6rem;
 border-radius: 999px;
 }
 
@@ -97,7 +97,7 @@ border-radius: 999px;
 }
 
 .nav.nav-list a[aria-current="page"] {
-    border: 1px solid var(--color-light-pink);
+    border: 1px solid var(--color-dark-pink);
 }
 
 
