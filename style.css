@@ -46,7 +46,7 @@ body::before {
     position: absolute;
     top: 0;
     left: -999;
-    background: var(--color-lavender);
+    background: var(--color-medium-purple);
     color: var(--color-navy);
     padding: 0.5rem 1 rem;
     z-index: 100;
@@ -65,17 +65,18 @@ body::before {
     align-items: center;
     padding: 1rem 1.5rem;
     background: rgba(0, 0, 40, 0.8);
-    border-bottom: 1px solid rgba(230, 230, 250, 0.5);
+    border-bottom: 2px solid rgba(230, 230, 250, 0.5);
 }
 
 .logo-area {
+    
 max-width: 60%
 }
 
 .site-title {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: bold;
-    color: var(--color-lavender);
+    color: var(--color-dark-pink);
     text-decoration: none;
 }
 
@@ -92,12 +93,12 @@ border-radius: 999px;
 }
 
 .nav, .nav-list a:hover, .nav-list a:focus-visible {
-    background: var(--color-light-pink);
+    background: var(--color-medium-purple);
     color: var(--color-navy);
 }
 
 .nav, .nav-list a[aria-current="page"] {
-    border: 1px solid var(--color-dark-pink);
+    border: 2px solid var(--color-dark-pink);
 }
 
 
@@ -136,7 +137,7 @@ h1, h2, h3 {
     background: rgba(10, 10, 40, 0.7);
     border-radius: 12px;
     box-shadow: 0 0 18px rgba(147, 112, 219, 0.6);
-    border: 1px solid rgba(230, 230, 250, 0.7);
+    border: 2px solid rgba(230, 230, 250, 0.7);
     position: relative;
     overflow: hidden;
 }
@@ -146,7 +147,7 @@ h1, h2, h3 {
     position: absolute;
     inset: -2px;
     border-radius: inherit;
-    border: 1px solid rgba(255, 192, 203, 0.3);
+    border: 2px solid rgba(255, 192, 203, 0.3);
     opacity: 0;
     animation: sectionGlow 4s ease-in-out infinite alternate;
     pointer-events: none;
@@ -197,7 +198,7 @@ h1, h2, h3 {
 
 .button:hover,
  .button:focus-visible {
-    background: var(--color-light-pink);
+    background: var(--color-dark-pink);
     color: var(--color-navy);
 }
 
