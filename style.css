@@ -124,12 +124,13 @@ nav {
 /* Layout containers */
 header{
     text-align: center;
-    padding-top: 3rem;
+    padding: 0.5rem 1rem;
+    padding-top: 2rem;
     margin-top: 2rem;
 }
 
 main {
-    margin-top: 3rem;
+    margin-top: 0;
     max-width: 900px;
      margin: 0 auto;
     padding: 1.5rem 1rem 3rem;
@@ -289,7 +290,8 @@ textarea:focus-visible {
 footer {
     position: relative;
     text-align: center;
-    background: rgba(0, 0, 40, 0.85);
+    border-top: #fae5ff;
+    background: var(--color-medium-purple);
     padding: 1rem 0;
 }
 
