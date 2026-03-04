@@ -46,8 +46,8 @@ body::before {
 
 /* Skip Link for keyboard users */
 .skip-link {
-    position: absolute;
     top: -40px;
+    position: absolute;
     left: 0;
     background: var(--color-medium-purple);
     color: var(--color-navy);
@@ -57,8 +57,8 @@ body::before {
 }
 
 .skip-link:focus {
-    top: 0.5rem;
-    left: 0.5rem;
+    top: 2rem;
+    left: 2rem;
 }
 
 /* Layout */
@@ -107,8 +107,6 @@ gap: 1.2rem;
 padding: 0;
 margin: 0;
 width: 100%;
-max-width: 250px;
-text-align: center;
  }
 
 .nav-list a {
@@ -134,7 +132,7 @@ transition: 0.3s ease;
 /* Layout containers */
 header{
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding: 2rem 1rem 1rem;
 }
 
