@@ -63,7 +63,7 @@ body::before {
 
 /* Layout */
 .site-header {
-    position: relative;
+    text-align: center;
 }
 
 .site-title {
@@ -100,12 +100,9 @@ nav {
 }
 
 .nav-list {
-    list-style: none;
-    display: flex;
-    gap: 1.2rem;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
+width: auto;
+max-width: none;
+text-align: center;
  }
 
 .nav-list a {
@@ -154,7 +151,7 @@ h1, h2, h3 {
     font-size: 24px;
     color: var(--color-dark-pink);
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
     margin: 0.25rem 0 0;
 }
 
@@ -294,6 +291,8 @@ textarea:focus-visible {
 footer {
     position: relative;
     text-align: center;
+    background: rgba(0, 0, 40, 0.85);
+    padding: 1rem 0;
 }
 
 /*Full=width header/nav/footer */
@@ -317,10 +316,14 @@ right: 0;
 position: relative;
 }
 
-.nav-list{
-    width: 100%;
-    max-width: 250px;
-    text-align: center;
+.section {
+margin-bottom: 2rem;
+padding: 1.5rem;
+background: rgba(10,10, 40, 0.7);
+border-radius: 12px;
+box-shadow: 0 0 18px rgba(147, 112, 219, 0.6);
+border: 2px solid rgba(230,230,250,0.7);
+overflow: visible;
 }
 
 /* Responsive */
