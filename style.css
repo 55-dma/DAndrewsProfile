@@ -291,8 +291,9 @@ textarea:focus-visible {
 footer {
     position: relative;
     text-align: center;
-    border-top: #fae5ff;
-    background: var(--color-medium-purple);
+    font-weight: bolder;
+    color: var(--color-navy);
+    background: var(--color-dark-pink);
     padding: 1rem 0;
 }
 
