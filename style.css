@@ -297,14 +297,11 @@ footer {
     padding: 1rem 0;
 }
 
-/*Full=width header/nav/footer */
-
-/*.site-header,
+.site-header,
 nav, footer {
     width: 100%;
     max-width: 100%;
 }
-*/
 
 .section {
 margin-bottom: 2rem;
