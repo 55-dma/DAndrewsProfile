@@ -47,14 +47,12 @@ body::before {
 /* Skip Link for keyboard users */
 .skip-link {
     top: -40px;
-    position: absolute;
     left: 0;
     background: var(--color-medium-purple);
     color: var(--color-navy);
-    padding: 0.5rem 1rem;
-    z-index: 9999;
-    transition: top 0.3s ease;
 }
+
+   /*
 
 .skip-link:focus {
     top: 2rem;
@@ -132,13 +130,14 @@ transition: 0.3s ease;
 /* Layout containers */
 header{
     text-align: center;
-    padding-top: 5rem;
-    padding: 2rem 1rem 1rem;
+    padding-top: 3rem;
+    margin-top: 2rem;
 }
 
 main {
+    margin-top: 3rem;
     max-width: 900px;
-    margin: 0 auto;
+     margin: 0 auto;
     padding: 1.5rem 1rem 3rem;
 }
 
@@ -333,8 +332,8 @@ overflow: visible;
 
 .section ul, .section ol {
     list-style: none;
-    padding-left: 0;
-    margin-left: 0;
+    padding: 0;
+    margin: 0;
 }
 
 /* Responsive */
