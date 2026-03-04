@@ -69,17 +69,16 @@ body::before {
     width: 575px;
     height: auto;
     display: block;
-    margin: 0 auto;
 }
 
 .logo-area {
     text-align: center;
         max-width: 100%;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
 
 .logo-area .tagline {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     text-align: center;
 }
 
