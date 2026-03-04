@@ -47,12 +47,13 @@ body::before {
 /* Skip Link for keyboard users */
 .skip-link {
     position: absolute;
-    top: 0;
-    left: -999;
+    top: -40px;
+    left: 0;
     background: var(--color-medium-purple);
     color: var(--color-navy);
     padding: 0.5rem 1rem;
-    z-index: 100;
+    z-index: 9999;
+    transition: top 0.3s ease;
 }
 
 .skip-link:focus {
@@ -62,41 +63,6 @@ body::before {
 
 /* Layout */
 .site-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    position: relative;
-    background: rgba(0, 0, 40, 0.8);
-    border-bottom: 2px solid rgba(230, 230, 250, 0.5);
-}
-
-.site-title {
-    font-size: 1.7rem;
-    font-weight: bold;
-    color: var(--color-dark-pink);
-    text-decoration: none;
-}
-
-/* Logo */
-.logo {
-    width: 120px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.logo-area {
-    text-align: center;
-        max-width: 100%;
-        margin-bottom: 0.5rem;
-    }
-
-/* Navigation */
-nav {
-    background: linear-gradient(to right, #3a1a5f, #2a0f4d);
-    padding: 0.75rem 0;
     position: relative;
 }
 
@@ -107,9 +73,37 @@ nav {
     left: 0;
     width: 100%;
     height: 20px;
-    background: repeating-linear-gradient(
-        -45deg, #ffb695, #ffb6d5 10px, 
-        #ffcce5 10px, #ffcce5 20px);
+    background: url('data:image/svg+xml;utf8,<svg width="100%" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M0 6 Q 25 0 50 6 T 100 6" stroke="%23ffc2f2" fill="transparent" stroke-width="2"/></svg>');
+    }
+
+.site-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--color-dark-pink);
+    text-decoration: none;
+}
+
+/* Logo */
+.logo {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    z-index: 9999;
+    position: relative;
+}
+
+.logo-area {
+    text-align: center;
+        max-width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+/* Navigation */
+nav {
+    background: linear-gradient(to right, #2a0f4d, #3a1a5f);
+    padding: 0.75rem 0;
+    position: relative;
 }
 
 .nav-list {
@@ -399,14 +393,7 @@ textarea:focus-visible {
 
 /*Footer*/
 footer {
-    text-align: center;
-    padding: 1rem;
-    color: var(--color-navy);
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    border-top: 2px solid var(--color-dark-pink);
-    background: linear-gradient(to right, #d8a7ff, #ffb695);
+    position: relative;
 }
 
 footer::before {
@@ -414,12 +401,9 @@ footer::before {
     position:absolute;
     bottom: -12px;
     left: 0;
-
     width: 100%;
-    height: 20px;
-    background: repeating-linear-gradient(
-        -45deg, #ffb695, #ffb6d5 10px, 
-        #ffcce5 10px, #ffcce5 20px);
+    height: 12px;
+    background: url('data:image/svg+xml;utf8,<svg width="100%" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M0 6 Q 25 0 50 6 T 100 6" stroke="%23ffc2f2" fill="transparent" stroke-width="2"/></svg>');
 }
 
 /* Responsive */
