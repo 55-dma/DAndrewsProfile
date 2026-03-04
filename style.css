@@ -66,16 +66,6 @@ body::before {
     position: relative;
 }
 
-.site-header::after {
-    content: "";
-    position:absolute;
-    bottom: -12px;
-    left: 0;
-    width: 100%;
-    height: 20px;
-    background: url('data:image/svg+xml;utf8,<svg width="100%" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M0 6 Q 25 0 50 6 T 100 6" stroke="%23ffc2f2" fill="transparent" stroke-width="2"/></svg>');
-    }
-
 .site-title {
     font-size: 1.7rem;
     font-weight: bold;
@@ -394,16 +384,41 @@ textarea:focus-visible {
 /*Footer*/
 footer {
     position: relative;
+    text-align: center;
 }
 
-footer::before {
-    content: "";
-    position:absolute;
-    bottom: -12px;
-    left: 0;
+/*Full=width header/nav/footer */
+
+.site-header,
+nav, footer {
     width: 100%;
-    height: 12px;
-    background: url('data:image/svg+xml;utf8,<svg width="100%" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M0 6 Q 25 0 50 6 T 100 6" stroke="%23ffc2f2" fill="transparent" stroke-width="2"/></svg>');
+    max-width: 100%;
+}
+
+/* Bigger logo */
+
+.logo {
+    width: 320px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Tagline changes */
+
+.logo-area .tagline {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.tagline {
+    text-align: center;
+}
+
+/* Nav Bar background */
+
+nav {
+    background: rgba(0, 0, 40, 0.85);
 }
 
 /* Responsive */
@@ -414,4 +429,5 @@ footer::before {
     }
 
 }
+
 
