@@ -289,6 +289,7 @@ thead {
 .form-group {
     margin-bottom: 1rem;
     color: var(--color-dark-pink);
+    background-color: var(--color-dark-pink);
 }
 
 label {
