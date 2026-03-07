@@ -83,7 +83,7 @@ body::before {
     position: relative;
     top: 180px;
     left: 40px;
-    background: rgba(--color-dark-pink);
+    background: rgba(v--color-dark-pink);
     padding: 1rem;
     border-radius: 12px;
     box-shadow: 0 0 12px rgba(--color-dark-pink);
@@ -228,14 +228,14 @@ h1, h2, h3 {
 }
 
 .button-primary {
-    background: var(--color-navy);
+    background: var(--color-dark-pink);
     color: var(--color-navy);
     text-align: center;
     box-shadow: 0 0 12px rgba(147, 112, 219, 0.8);
 }
 
 .button-secondary {
-    background: var(--color-navy);
+    background: var(--color-dark-pink);
     color: var(--color-navy);
     text-align: center;
     border: 2px solid var(--color-lavender);
@@ -326,7 +326,6 @@ label {
 }
 
 #form-success {
-    background-color: var(--color-dark-pink);
     margin-top: 0.75rem;
     color: var(--color-dark-pink);
     font-style: bold;
