@@ -312,6 +312,7 @@ label {
 .textarea:focus-visible {
     outline: 2px solid var(--color-light-pink);
     outline-offset: 2px;
+    background-color: var(--color-dark-pink);
 }
 
 .error-message {
