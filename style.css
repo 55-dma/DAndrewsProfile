@@ -287,13 +287,12 @@ thead {
 
 /* Forms */
 .form-group {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     color: var(--color-dark-pink);
 }
 
 label {
     display: block;
-    margin-bottom: 0.25rem;
     background-color: var(--color-navy);
     }
 
@@ -302,7 +301,6 @@ label {
     padding: 0.5rem;
     border-radius:  6px;
     border: 1px solid rgba(230, 230, 250, 0.7);
-    background-color: var(--color-navy);
     color: var(--color-dark-pink);
     font-family: inherit;
     font-size: 1rem;
