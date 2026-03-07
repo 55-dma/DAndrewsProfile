@@ -1,13 +1,14 @@
+//Reduced motion
+
 document.documentElement.classList.add('js-enabled');
 
-//Reduced motion
 (function() {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (prefersReducedMotion) {
         return;
     }
 
-    const internalLinks = document.querySelectorAll('a[href^="#"]');
+const internalLinks = document.querySelectorAll('a[href^="#"]');
 
 internalLinks.forEach(link => {
         link.addEventListener('click', function(event) {
@@ -32,9 +33,10 @@ const targetId = this.getAttribute('href').substring(1);
 
 //Audio & Button
 const audio = document.getElementById("welcomeAudio");
+
 const button = document.getElementById("audioToggle");
 
-button.addEventListener("click", () => {
+button.addEventListener('click', () => {
     if (audio.paused) {
         audio.play();
         button.textContent = "⏸ Pause Audio";
@@ -43,10 +45,11 @@ button.addEventListener("click", () => {
         audio.pause();
         button.textContent = "▶ Play Audio";
         button.setAttribute("aria-label", "Play welcome audio");
-    };
-
+    }};
+)
 
 //Pick a Card Message
+
 const messages = [
     "📝 Freedom is the essence of the soul ~ never let it Fade.",
     "📝 In every challenge lies the seed of opportunity ~ let it Grow.",
@@ -65,11 +68,10 @@ const pullCardBtn = document.getElementById('pull-card-btn');
 const cardMessage = document.getElementById('card-message');
 
 if (pullCardBtn && cardMessage) {
-    pullCardBtn.addEventListener('click', () => {
+    pullCardBtn.addEventListener('submit', () => {
         const index = Math.floor(Math.random() * messages.length);
         cardMessage.textContent = messages[index];
-    });
-}
+  })};
 
 //Contact Form Validation
 
