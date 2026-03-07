@@ -217,10 +217,10 @@ h1, h2, h3 {
 }
 
 .button-secondary {
-    background: transparent;
-    color: var(--color-dark-pink);
+    background: var(--color-dark-pink);
+    color: var(--color-navy);
     text-align: center;
-    border: 2px solid var(--color-light-pink);
+    border: 2px solid var(--color-dark-pink);
 }
 
 .button:hover,
@@ -235,10 +235,10 @@ h1, h2, h3 {
     position: absolute;
     top: 180px;
     right: 20px;
-    background: rgba(0,0,40, 0.6);
+    background: rgba(--color-dark-pink);
     padding: 1rem;
     border-radius: 12px;
-    box-shadow: 0 0 12px rgba(147, 112, 219, 0.6);
+    box-shadow: 0 0 12px rgba(--color-dark-pink);
 }
 
 .auto-transcript {
@@ -299,7 +299,7 @@ label {
     color: var(--color-lavender);
 }
 
-input, select, textarea {
+.input, select, textarea {
     width: 100%;
     padding: 0.5rem;
     border-radius:  6px;
@@ -310,9 +310,9 @@ input, select, textarea {
     font-size: 1rem;
 }
 
-input:focus-visible,
-select:focus-visible,
-textarea:focus-visible {
+.input:focus-visible,
+.select:focus-visible,
+.textarea:focus-visible {
     outline: 2px solid var(--color-dark-pink);
     outline-offset: 2px;
 }

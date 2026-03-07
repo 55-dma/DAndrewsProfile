@@ -11,6 +11,17 @@
 
 <body>
 
+    <div class="audio-player" role="region" aria-label="Site welcome audio"></div>
+    <audio id="welcomeAudio" autoplay>
+    <source src="Website Welcome Page - Audio Clip.mp3" type="audio/mpeg"></audio>
+    <p class="audio-transcript"><strong>Welcome - Audio Clip</strong></p>
+    </div>
+
+    <button id="audioToggle" aria-controls="welcomeAudio" aria-label="Pause welcome audio">
+        ⏸ Pause Audio
+    </button>
+
+
     <a href="#main-content" class="skip-link">🎼  Skip to Main Content</a>
     
     <header class="site-header">
@@ -32,16 +43,6 @@
             </ul>
         </nav>
     </header>
-
-    <div class="audio-player" role="region" aria-label="Site welcome audio"></div>
-    <audio id="welcomeAudio" autoplay>
-    <source src="Website Welcome Page - Audio Clip.mp3" type="audio/mpeg"></audio>
-    <p class="audio-transcript"><strong>Transcript:</strong> Welcome to Dottaskic.Designs.  Explore my projects, services, and creative journey.</p>
-    </div>
-
-    <button id="audioToggle" aria-controls="welcomeAudio" aria-label="Pause welcome audio">
-        ⏸ Pause Audio
-    </button>
 
     <main id="main-content" role="main">
 
