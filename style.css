@@ -288,13 +288,13 @@ thead {
 /* Forms */
 .form-group {
     margin-bottom: 0.5rem;
-    color: var(--color-navy);
+    color: var(--color-dark-pink);
 }
 
 label {
     display: block;
     margin-bottom: 0.25rem;
-    background-color: var(--color-dark-pink);
+    background-color: var(--color-navy);
     }
 
 .input, select, textarea {
