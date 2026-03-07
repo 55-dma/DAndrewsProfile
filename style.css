@@ -228,22 +228,22 @@ h1, h2, h3 {
 }
 
 .button-primary {
-    background: var(--color-dark-pink);
-    color: var(--color-navy);
+    background: var(--color-navy);
+    color: var(--color-dark-pink);
     text-align: center;
     box-shadow: 0 0 12px rgba(147, 112, 219, 0.8);
 }
 
 .button-secondary {
-    background: var(--color-dark-pink);
-    color: var(--color-navy);
+    background: var(--color-navy);
+    color: var(--color-dark-pink);
     text-align: center;
     border: 2px solid var(--color-lavender);
 }
 
 .button:hover,
  .button:focus-visible {
-    background: var(--color-dark-pink);
+    background: var(--color-navy);
     color: var(--color-navy);
 }
 
