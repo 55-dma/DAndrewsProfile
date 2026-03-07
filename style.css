@@ -245,7 +245,7 @@ h1, h2, h3 {
 
 /* Links */
 a {
-    color: var(--color-dark-pink);
+    color: var(--color-navy);
     text-decoration: underline;
     font-weight: bold;
 }
