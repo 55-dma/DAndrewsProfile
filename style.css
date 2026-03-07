@@ -228,20 +228,20 @@ h1, h2, h3 {
 }
 
 .button-primary {
-    color: var(--color-dark-pink);
+    color: var(--color-navy);
     text-align: center;
     box-shadow: 0 0 12px rgba(147, 112, 219, 0.8);
 }
 
 .button-secondary {
-    color: var(--color-dark-pink);
+    color: var(--color-navy);
     text-align: center;
     border: 2px solid var(--color-lavender);
 }
 
 .button:hover,
  .button:focus-visible {
-    color: var(--color-dark-pink);
+    color: var(--color-navy);
 }
 
 /* Links */
@@ -293,8 +293,6 @@ thead {
 
 label {
     display: block;
-    background-color: var(--color-dark-pink);
-    color: var(--color-navy);
     }
 
 .input, select, textarea {
