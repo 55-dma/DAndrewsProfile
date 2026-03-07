@@ -324,7 +324,7 @@ label {
 #form-success {
     background-color: var(--color-dark-pink);
     margin-top: 0.75rem;
-    color: var(--color-dark-pink);
+    color: var(--color-navy);
     font-style: bold;
     font-size: larger;
 }
