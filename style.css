@@ -291,12 +291,12 @@ thead {
 /* Forms */
 .form-group {
     margin-bottom: 1rem;
+    background-color: var(--color-dark-pink);
 }
 
 label {
     display: block;
-    background-color: var(--color-dark-pink);
-}
+    }
 
 .input, select, textarea {
     width: 100%;
