@@ -323,6 +323,7 @@ label {
 }
 
 #form-success {
+    background-color: var(--color-dark-pink);
     margin-top: 0.75rem;
     color: var(--color-dark-pink);
     font-style: bold;
@@ -344,7 +345,7 @@ form button:hover,
 form input[type="submit"]:hover,
 form button:focus-visible,
 form input[type="submit"]:focus-visible {
-    background-color: #ff7ac8;
+    background-color: var(--color-dark-pink);
     color: navy;
     }
 
