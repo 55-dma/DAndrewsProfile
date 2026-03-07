@@ -217,7 +217,6 @@ h1, h2, h3 {
 /* Buttons */
 .button {
     background-color: var(--color-dark-pink);
-    color: var(--color-navy);
     display: inline-block;
     padding: 0.6rem 1.2rem;
     font-weight: bold;
@@ -229,22 +228,20 @@ h1, h2, h3 {
 }
 
 .button-primary {
-    background-color: var(--color-dark-pink);
-    color: var(--color-navy);
+    color: var(--color-dark-pink);
     text-align: center;
     box-shadow: 0 0 12px rgba(147, 112, 219, 0.8);
 }
 
 .button-secondary {
-    background-color: var(--color-dark-pink);
-    color: var(--color-navy);
+    color: var(--color-dark-pink);
     text-align: center;
     border: 2px solid var(--color-lavender);
 }
 
 .button:hover,
  .button:focus-visible {
-    color: var(--color-navy);
+    color: var(--color-dark-pink);
 }
 
 /* Links */
@@ -290,8 +287,6 @@ thead {
 
 /* Forms */
 .form-group {
-    background-color: var(--color-dark-pink);
-    color: var(--color-dark-pink);
     margin-bottom: 0.5rem;
 }
 
@@ -335,7 +330,6 @@ label {
 form button, form input[type="submit"] {
     border: none;
     padding: 0.6rem 1.2rem;
-    color: var(--color-navy);
     border-radius: 999px;
     font-weight: bold;
     cursor: pointer;
