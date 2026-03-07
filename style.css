@@ -292,6 +292,7 @@ thead {
 
 label {
     display: block;
+    background-color: var(--color-dark-pink);
     }
 
 .input, select, textarea {
@@ -319,7 +320,7 @@ label {
 
 #form-success {
     margin-top: 0.75rem;
-    font-style: bold;
+    font-style: bolder;
     font-size: larger;
 }
 
@@ -328,7 +329,7 @@ form button, form input[type="submit"] {
     color: var(--color-navy);
     padding: 0.6rem 1.2rem;
     border-radius: 999px;
-    font-weight: bold;
+    font-weight: bolder;
     cursor: pointer;
     transition: 03s ease;
 }
