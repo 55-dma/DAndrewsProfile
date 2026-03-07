@@ -216,7 +216,6 @@ h1, h2, h3 {
 
 /* Buttons */
 .button {
-    background-color: var(--color-dark-pink);
     display: inline-block;
     padding: 0.6rem 1.2rem;
     font-weight: bolder;
@@ -228,12 +227,14 @@ h1, h2, h3 {
 }
 
 .button-primary {
+    background-color: var(--color-dark-pink);
     color: var(--color-dark-pink);
     text-align: center;
     box-shadow: 0 0 12px rgba(147, 112, 219, 0.8);
 }
 
 .button-secondary {
+    background-color: var(--color-dark-pink);
     color: var(--color-dark-pink);
     text-align: center;
     border: 2px solid var(--color-lavender);
@@ -241,7 +242,8 @@ h1, h2, h3 {
 
 .button:hover,
  .button:focus-visible {
-    color: var(--color-dark-pink);
+    color: var(--color-navy);
+    background-color: var(--color-dark-pink);
 }
 
 /* Links */
