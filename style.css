@@ -287,8 +287,7 @@ thead {
 
 /* Forms */
 .form-group {
-    background-color: var(--color-dark-pink);
-    color: var(--color-navy);
+    color: var(--color-dark-pink);
     margin-bottom: 0.5rem;
 }
 
