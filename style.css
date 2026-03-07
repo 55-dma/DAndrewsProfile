@@ -302,8 +302,8 @@ label {
     padding: 0.5rem;
     border-radius:  6px;
     border: 1px solid rgba(230, 230, 250, 0.7);
-    background-color: var(--color-dark-pink);
-    color: var(--color-navy);
+    background-color: var(--color-navy);
+    color: var(--color-dark-pink);
     font-family: inherit;
     font-size: 1rem;
 }
