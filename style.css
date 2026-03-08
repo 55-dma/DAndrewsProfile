@@ -82,6 +82,7 @@ body::before {
     position: absolute;
     top: 180px;
     right: 20px;
+    left: auto;
     background: rgba(255,255,255,0.15);
     padding: 1rem;
     border-radius: 12px;
@@ -230,6 +231,13 @@ h1, h2, h3 {
 .button:hover,
 .button:focus-visible {
     color: var(--color-navy);
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
 /* Links */
