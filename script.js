@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         form.addEventListener("submit", (event) => {
             event.preventDefault(); // prevent page reload
 
-            success.textContent = "🌸 Your message has been sent successfully!";
+            success.textContent = "🌸 Your message has been sent successfully ~ Thank You!";
             success.style.color = "var(--color-dark-pink)";
 
             form.reset();
