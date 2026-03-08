@@ -69,7 +69,8 @@ body::before {
     display: block;
     margin: 0 auto;
     max-width: 90%;
-    animation: floatLogo 6s ease-in-out infinite;
+    transform-origin: center;
+    animation: sideWave 2.5s ease-in-out infinite;
 }
 
 .logo-area {
@@ -86,10 +87,12 @@ body::before {
     text-align: center;
 }
 
-@keyframes floatLogo {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-    100% { transform: translateY(0); }
+@keyframes sideWave {
+    0% { transform: translateX(0) rotate(0deg); }
+    25% { transform: translateX(4px) rotate(2deg); }
+    50% { transform: translateX(0) rotate(0deg); }
+    75% { transform: translateX(-4px) rotate(-2deg); }
+    100% { transform: translateX(0) rotate(0deg); }
 }
 
 /* Audio Player */
@@ -230,6 +233,23 @@ h1, h2, h3 {
     min-width: 220px;
     text-align: center;
 }
+
+#pull-card-btn {
+    background-color: var(--color-dark-pink);
+    color: var(--color-navy);
+    padding: 0.8rem 1.4rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#pull-card-btn:hover {
+    background-color: var(--color-pink);
+    transform: scale(1.05);
+}
+
 
 /* Links */
 a {
