@@ -47,11 +47,13 @@ body::before {
 /* Skip Link */
 .skip-link {
     position: absolute;
-    top: -50px;
+    top: -40px;
     left: 0;
-    background: var(--color-medium-purple);
+    background: var(--color-dark-pink);
     color: var(--color-navy);
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0 0 8px 0;
+    transition: top 0.3s ease;
     z-index: 9999;
 }
 
@@ -80,7 +82,7 @@ body::before {
 /* Audio Player */
 .audio-player {
     position: absolute;
-    top: 180px;
+    top: 220px;
     right: 20px;
     left: auto;
     background: rgba(255,255,255,0.15);
@@ -236,7 +238,9 @@ h1, h2, h3 {
 .hero-actions {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    text-align: center;
+    min-width: 220px;
+    gap: 3rem;
     margin-top: 2rem;
 }
 
