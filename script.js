@@ -1,57 +1,28 @@
-//Reduced motion
+// ========== AUDIO TOGGLE ==========
+document.addEventListener("DOMContentLoaded", () => {
+    const audio = document.getElementById("welcomeAudio");
+    const audioButton = document.getElementById("audioToggle");
 
-document.documentElement.classList.add('js-enabled');
-
-(function() {
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (prefersReducedMotion) {
-        return;
+    if (audio && audioButton) {
+        audioButton.addEventListener("click", () => {
+            if (audio.paused) {
+                audio.play();
+                audioButton.textContent = "⏸ Pause Audio";
+                audioButton.setAttribute("aria-label", "Pause welcome audio");
+            } else {
+                audio.pause();
+                audioButton.textContent = "▶ Play Audio";
+                audioButton.setAttribute("aria-label", "Play welcome audio");
+            }
+        });
     }
 
-const internalLinks = document.querySelectorAll('a[href^="#"]');
+    // ========== MESSAGES PAGE: CARD BUTTON ==========
+    const cardButton = document.getElementById("pull-card-btn");
+    const cardMessage = document.getElementById("card-message");
 
-internalLinks.forEach(link => {
-        link.addEventListener('click', function(event) {
-
-const targetId = this.getAttribute('href').substring(1);
-        if (!targetId) return;
-
-        const targetElement =
-        document.getElementById(targetId);
-        if (targetElement) {
-            event.preventDefault();
-            targetElement.scrollIntoView({ behavior: 'smooth' });
-            targetElement.setAttribute('tabindex', '-1');
-            targetElement.focus({ preventScroll: true });
-            targetElement.addEventListener('blur', () => {
-                targetElement.removeAttribute('tabindex');
-            }, { once: true });
-        }
-            });
-         });
-})();
-
-//Audio & Button
-const audio = document.getElementById("welcomeAudio");
-
-const button = document.getElementById("audioToggle");
-
-button.addEventListener('click', () => {
-    if (audio.paused) {
-        audio.play();
-        button.textContent = "⏸ Pause Audio";
-        button.setAttribute("aria-label", "Pause welcome audio");
-    } else {
-        audio.pause();
-        button.textContent = "▶ Play Audio";
-        button.setAttribute("aria-label", "Play welcome audio");
-    }
-
-});
-
-//Pick a Card Message
-
-const messages = [
+    if (cardButton && cardMessage) {
+        const messages = [
     "📝 Freedom is the essence of the soul ~ never let it Fade.",
     "📝 In every challenge lies the seed of opportunity ~ let it Grow.",
     "📝 You are a shining star that brights the world ~ just being in It.",
@@ -64,73 +35,19 @@ const messages = [
     "📝 My FAVORITE ~ Bloom...Wherever You Are Planted!",
 ];
 
-const pullCardBtn = document.getElementById('pull-card-btn');
+        cardButton.addEventListener("click", () => {
+            const randomIndex = Math.floor(Math.random() * messages.length);
+            cardMessage.textContent = messages[randomIndex];
+        });
+    }
 
-const cardMessage = document.getElementById('card-message');
-
-if (pullCardBtn && cardMessage) {
-    pullCardBtn.addEventListener('submit', () => {
-        const index = Math.floor(Math.random() * messages.length);
-        cardMessage.textContent = messages[index];
-  })};
-
-//Contact Form Validation
-
-const contactForm = document.getElementById('contact-form');
-if (contactForm) {
-
-const nameInput = document.getElementById('name');
-const emailInput = document.getElementById('email');
-const messageInput = document.getElementById('message');
-const nameError = document.getElementById('name-error');
-
-const emailError = document.getElementById('email-error');
-const messageError = document.getElementById('message-error');
-const successMessage = document.getElementById('form-success');
-
-contactForm.addEventListener('submit', (event) => {
-    let valid = true;
-    successMessage.textContent = "";
-
-    if (!nameInput.value.trim()) {
-        nameError.textContent = "Please enter your name."; valid = false;
-        } else {
-            nameError.textContent = "";
-        }
-
-  if (!emailInput.value.trim()) {
-        emailError.textContent = "Please enter a valid email address."; valid = false;
-        } else {
-            emailError.textContent = "";
-        }
-
-  if (!messageInput.value.trim()) {
-        messageError.textContent = "Please share your ideas you have on your project."; valid = false;
-        } else {
-            messageError.textContent = "";
-        }
-
-  if (!valid) {
-    event.preventDefault();
-    return;
-  }
-
-event.preventDefault();
-successMessage.textContent = "Thank you!  Your message has been sent -- I look forward to talking with you!";
-contactForm.reset();
-
-});
-
-}
-
-// CONTACT FORM HANDLING
-document.addEventListener("DOMContentLoaded", () => {
+    // ========== CONTACT FORM HANDLING ==========
     const form = document.getElementById("contact-form");
     const success = document.getElementById("form-success");
 
-    if (form) {
+    if (form && success) {
         form.addEventListener("submit", (event) => {
-            event.preventDefault(); // stop page reload
+            event.preventDefault(); // prevent page reload
 
             success.textContent = "🌸 Your message has been sent successfully!";
             success.style.color = "var(--color-dark-pink)";
@@ -139,4 +56,18 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
