@@ -45,8 +45,9 @@ button.addEventListener('click', () => {
         audio.pause();
         button.textContent = "▶ Play Audio";
         button.setAttribute("aria-label", "Play welcome audio");
-    }};
-)
+    }
+
+});
 
 //Pick a Card Message
 
