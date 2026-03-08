@@ -250,6 +250,13 @@ h1, h2, h3 {
     transform: scale(1.05);
 }
 
+#card-message {
+    font-size: 1.6rem; 
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1rem;
+}
 
 /* Links */
 a {
